@@ -1,0 +1,22 @@
+{
+  "name": "customercli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "preferGlobal": true,
+  "bin": "./commands.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.19.0",
+    "inquirer": "^6.2.1",
+    "mongoose": "^5.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
